@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "pack_format": 64,
+    "supported_formats": { "min_inclusive": 55, "max_inclusive": 99 },
+    "description": [
+      { "text": "KO", "color": "#9B30FF", "bold": true },
+      { "text": "NO", "color": "#FF8C00", "bold": true },
+      { "text": "SU", "color": "#00C957", "bold": true },
+      { "text": "BA!", "color": "#1E90FF", "bold": true },
+      { "text": " custom sounds", "color": "gray", "bold": false }
+    ]
+  }
+}
