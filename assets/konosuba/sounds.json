@@ -68,5 +68,8 @@
   "aqua_pause":   { "category": "master", "subtitle": "konosuba.subtitle.aqua_pause",   "sounds": [ "konosuba:misc/aqua_pause" ] },
 
   "intro.legend": { "category": "master", "subtitle": "konosuba.subtitle.intro_legend", "sounds": [ { "name": "konosuba:intro/legend", "stream": true } ] },
-  "intro.rbd":    { "category": "master", "subtitle": "konosuba.subtitle.intro_rbd",    "sounds": [ "konosuba:intro/rbd" ] }
+  "intro.rbd":    { "category": "master", "subtitle": "konosuba.subtitle.intro_rbd",    "sounds": [ "konosuba:intro/rbd" ] },
+
+  "sword.pull": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull", "stream": true } ] },
+  "fanfare":    { "category": "master", "sounds": [ "konosuba:misc/fanfare" ] }
 }
