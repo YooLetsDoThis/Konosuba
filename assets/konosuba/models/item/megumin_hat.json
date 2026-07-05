@@ -2,7 +2,8 @@
 	"credit": "Made Tractor_Gena",
 	"texture_size": [32, 32],
 	"textures": {
-		"5": "konosuba:item/megumin_hat"
+		"5": "konosuba:item/megumin_hat",
+		"particle": "konosuba:item/megumin_hat"
 	},
 	"elements": [
 		{

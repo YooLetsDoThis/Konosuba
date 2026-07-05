@@ -45,12 +45,17 @@
   "champion.revali_used":  { "category": "player", "subtitle": "konosuba.subtitle.revali_used",  "sounds": [ "konosuba:champion/revali_used" ] },
   "champion.urbosa_ready": { "category": "player", "subtitle": "konosuba.subtitle.urbosa_ready", "sounds": [ "konosuba:champion/urbosa_ready" ] },
   "champion.urbosa_used":  { "category": "player", "subtitle": "konosuba.subtitle.urbosa_used",  "sounds": [ "konosuba:champion/urbosa_used" ] },
+  "champion.urbosa_fury":      { "category": "player", "sounds": [ "konosuba:champion/urbosa_fury" ] },
+  "champion.urbosa_lightning": { "category": "player", "sounds": [ "konosuba:champion/urbosa_lightning" ] },
 
   "slate.get":      { "category": "player", "subtitle": "konosuba.subtitle.slate_get",      "sounds": [ "konosuba:slate/get" ] },
   "slate.on":       { "category": "player", "subtitle": "konosuba.subtitle.slate_on",       "sounds": [ "konosuba:slate/on" ] },
   "slate.off":      { "category": "player", "subtitle": "konosuba.subtitle.slate_off",      "sounds": [ "konosuba:slate/off" ] },
   "slate.magnesis": { "category": "player", "subtitle": "konosuba.subtitle.slate_magnesis", "sounds": [ "konosuba:slate/magnesis" ] },
   "slate.cryonis":  { "category": "player", "subtitle": "konosuba.subtitle.slate_cryonis",  "sounds": [ "konosuba:slate/cryonis" ] },
+  "slate.cryonis_form":     { "category": "player", "sounds": [ "konosuba:slate/cryonis_form" ] },
+  "slate.cryonis_form_end": { "category": "player", "sounds": [ "konosuba:slate/cryonis_form_end" ] },
+  "slate.cryonis_crush":    { "category": "player", "sounds": [ "konosuba:slate/cryonis_crush" ] },
   "slate.stasis":   { "category": "player", "subtitle": "konosuba.subtitle.slate_stasis",   "sounds": [ { "name": "konosuba:slate/stasis", "stream": true } ] },
   "slate.magnesis_pickup": { "category": "player", "subtitle": "konosuba.subtitle.magnesis_pickup", "sounds": [ "konosuba:slate/magnesis_pickup" ] },
   "slate.magnesis_throw":  { "category": "player", "subtitle": "konosuba.subtitle.magnesis_throw",  "sounds": [ "konosuba:slate/magnesis_throw" ] },
@@ -65,11 +70,27 @@
   "sword.dequip": { "category": "player", "subtitle": "konosuba.subtitle.sword_dequip", "sounds": [ "konosuba:sword/dequip" ] },
   "sword.seal":   { "category": "player", "subtitle": "konosuba.subtitle.sword_seal",   "sounds": [ "konosuba:sword/seal" ] },
 
+  "sword.song":        { "category": "master", "sounds": [ { "name": "konosuba:sword/song", "stream": true } ] },
+  "sword.pull_energy": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull_energy", "stream": true } ] },
+  "sword.pull_effect": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull_effect", "stream": true } ] },
+  "sword.pull_burst":  { "category": "master", "sounds": [ "konosuba:sword/pull_burst" ] },
+  "sword.pull_cancel": { "category": "master", "sounds": [ "konosuba:sword/pull_cancel" ] },
+
+  "warp.tower": { "category": "master", "sounds": [ { "name": "konosuba:warp/tower", "stream": true } ] },
+  "warp.out":   { "category": "master", "sounds": [ { "name": "konosuba:warp/out", "stream": true } ] },
+  "warp.in":    { "category": "master", "sounds": [ { "name": "konosuba:warp/in", "stream": true } ] },
+
   "aqua_pause":   { "category": "master", "subtitle": "konosuba.subtitle.aqua_pause",   "sounds": [ "konosuba:misc/aqua_pause" ] },
 
   "intro.legend": { "category": "master", "subtitle": "konosuba.subtitle.intro_legend", "sounds": [ { "name": "konosuba:intro/legend", "stream": true } ] },
   "intro.rbd":    { "category": "master", "subtitle": "konosuba.subtitle.intro_rbd",    "sounds": [ "konosuba:intro/rbd" ] },
 
   "sword.pull": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull", "stream": true } ] },
-  "fanfare":    { "category": "master", "sounds": [ "konosuba:misc/fanfare" ] }
+  "fanfare":    { "category": "master", "sounds": [ "konosuba:misc/fanfare" ] },
+
+  "outro.music": { "category": "master", "sounds": [ { "name": "konosuba:outro/music", "stream": true } ] },
+
+  "vault.music": { "category": "master", "sounds": [ { "name": "konosuba:vault/temple_of_time", "stream": true } ] },
+  "boss.music":  { "category": "master", "sounds": [ { "name": "konosuba:boss/eleison", "stream": true } ] },
+  "boss.blademaster": { "category": "master", "sounds": [ { "name": "konosuba:boss/windsingers_dance", "stream": true } ] }
 }
