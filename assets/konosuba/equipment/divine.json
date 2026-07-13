@@ -1,0 +1,37 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "konosuba:divine",
+        "dyeable": {
+          "color_when_undyed": 11546150
+        }
+      },
+      {
+        "texture": "konosuba:divine_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "konosuba:divine",
+        "dyeable": {
+          "color_when_undyed": 11546150
+        }
+      },
+      {
+        "texture": "konosuba:divine_overlay"
+      }
+    ],
+    "wings": [
+      {
+        "texture": "konosuba:divine",
+        "dyeable": {
+          "color_when_undyed": 11546150
+        }
+      },
+      {
+        "texture": "konosuba:divine_overlay"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "konosuba:item/robe_leggings",
+    "layer1": "konosuba:item/robe_leggings_overlay"
+  }
+}

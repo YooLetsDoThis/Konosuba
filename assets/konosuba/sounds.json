@@ -1,96 +1,552 @@
 {
-  "explosion.music": {
-    "category": "player",
-    "subtitle": "konosuba.subtitle.explosion_music",
-    "sounds": [ { "name": "konosuba:explosion/ExplosionMusic", "stream": true } ]
-  },
-
-  "explosion.boom": {
-    "category": "player",
-    "subtitle": "konosuba.subtitle.explosion_boom",
-    "sounds": [ "konosuba:explosion/ExplosionBoom" ]
-  },
-
-  "megumin.intro": {
+  "aqua_pause": {
     "category": "master",
-    "sounds": [ { "name": "konosuba:megumin/intro", "stream": true } ]
+    "subtitle": "konosuba.subtitle.aqua_pause",
+    "sounds": [
+      "konosuba:misc/aqua_pause"
+    ]
   },
-
-  "steal": {
-    "category": "player",
-    "sounds": [ { "name": "konosuba:steal/steal", "stream": true } ]
+  "boss.blademaster": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:boss/windsingers_dance",
+        "stream": true
+      }
+    ]
   },
-
-  "jackpot": {
-    "category": "player",
-    "sounds": [ { "name": "konosuba:jackpot/jackpot", "stream": true } ]
-  },
-
-  "caption.steal": {
-    "category": "player",
-    "subtitle": "konosuba.subtitle.steal",
-    "sounds": [ "konosuba:ui/silent" ]
+  "boss.music": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:boss/eleison",
+        "stream": true
+      }
+    ]
   },
   "caption.jackpot": {
     "category": "player",
     "subtitle": "konosuba.subtitle.jackpot",
-    "sounds": [ "konosuba:ui/silent" ]
+    "sounds": [
+      "konosuba:ui/silent"
+    ]
   },
-
-  "champion.daruk_ready":  { "category": "player", "subtitle": "konosuba.subtitle.daruk_ready",  "sounds": [ "konosuba:champion/daruk_ready" ] },
-  "champion.daruk_used":   { "category": "player", "subtitle": "konosuba.subtitle.daruk_used",   "sounds": [ "konosuba:champion/daruk_used" ] },
-  "champion.mipha_ready":  { "category": "player", "subtitle": "konosuba.subtitle.mipha_ready",  "sounds": [ "konosuba:champion/mipha_ready" ] },
-  "champion.mipha_used":   { "category": "player", "subtitle": "konosuba.subtitle.mipha_used",   "sounds": [ "konosuba:champion/mipha_used" ] },
-  "champion.revali_ready": { "category": "player", "subtitle": "konosuba.subtitle.revali_ready", "sounds": [ "konosuba:champion/revali_ready" ] },
-  "champion.revali_used":  { "category": "player", "subtitle": "konosuba.subtitle.revali_used",  "sounds": [ "konosuba:champion/revali_used" ] },
-  "champion.urbosa_ready": { "category": "player", "subtitle": "konosuba.subtitle.urbosa_ready", "sounds": [ "konosuba:champion/urbosa_ready" ] },
-  "champion.urbosa_used":  { "category": "player", "subtitle": "konosuba.subtitle.urbosa_used",  "sounds": [ "konosuba:champion/urbosa_used" ] },
-  "champion.urbosa_fury":      { "category": "player", "sounds": [ "konosuba:champion/urbosa_fury" ] },
-  "champion.urbosa_lightning": { "category": "player", "sounds": [ "konosuba:champion/urbosa_lightning" ] },
-
-  "slate.get":      { "category": "player", "subtitle": "konosuba.subtitle.slate_get",      "sounds": [ "konosuba:slate/get" ] },
-  "slate.on":       { "category": "player", "subtitle": "konosuba.subtitle.slate_on",       "sounds": [ "konosuba:slate/on" ] },
-  "slate.off":      { "category": "player", "subtitle": "konosuba.subtitle.slate_off",      "sounds": [ "konosuba:slate/off" ] },
-  "slate.magnesis": { "category": "player", "subtitle": "konosuba.subtitle.slate_magnesis", "sounds": [ "konosuba:slate/magnesis" ] },
-  "slate.cryonis":  { "category": "player", "subtitle": "konosuba.subtitle.slate_cryonis",  "sounds": [ "konosuba:slate/cryonis" ] },
-  "slate.cryonis_form":     { "category": "player", "sounds": [ "konosuba:slate/cryonis_form" ] },
-  "slate.cryonis_form_end": { "category": "player", "sounds": [ "konosuba:slate/cryonis_form_end" ] },
-  "slate.cryonis_crush":    { "category": "player", "sounds": [ "konosuba:slate/cryonis_crush" ] },
-  "slate.stasis":   { "category": "player", "subtitle": "konosuba.subtitle.slate_stasis",   "sounds": [ { "name": "konosuba:slate/stasis", "stream": true } ] },
-  "slate.magnesis_pickup": { "category": "player", "subtitle": "konosuba.subtitle.magnesis_pickup", "sounds": [ "konosuba:slate/magnesis_pickup" ] },
-  "slate.magnesis_throw":  { "category": "player", "subtitle": "konosuba.subtitle.magnesis_throw",  "sounds": [ "konosuba:slate/magnesis_throw" ] },
-  "slate.advance":         { "category": "player", "subtitle": "konosuba.subtitle.slate_advance",   "sounds": [ { "name": "konosuba:slate/advance", "stream": true } ] },
-  "slate.rune_install":    { "category": "player", "subtitle": "konosuba.subtitle.rune_install",    "sounds": [ { "name": "konosuba:slate/rune_install", "stream": true } ] },
-
-  "slate.rbomb_hold":      { "category": "player", "subtitle": "konosuba.subtitle.rbomb_hold",      "sounds": [ "konosuba:slate/rbomb_hold" ] },
-  "slate.rbomb_cancel":    { "category": "player", "subtitle": "konosuba.subtitle.rbomb_cancel",    "sounds": [ "konosuba:slate/rbomb_cancel" ] },
-  "slate.rbomb_explosion": { "category": "player", "subtitle": "konosuba.subtitle.rbomb_explosion", "sounds": [ "konosuba:slate/rbomb_explosion" ] },
-
-  "sword.equip":  { "category": "player", "subtitle": "konosuba.subtitle.sword_equip",  "sounds": [ "konosuba:sword/equip" ] },
-  "sword.dequip": { "category": "player", "subtitle": "konosuba.subtitle.sword_dequip", "sounds": [ "konosuba:sword/dequip" ] },
-  "sword.seal":   { "category": "player", "subtitle": "konosuba.subtitle.sword_seal",   "sounds": [ "konosuba:sword/seal" ] },
-
-  "sword.song":        { "category": "master", "sounds": [ { "name": "konosuba:sword/song", "stream": true } ] },
-  "sword.pull_energy": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull_energy", "stream": true } ] },
-  "sword.pull_effect": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull_effect", "stream": true } ] },
-  "sword.pull_burst":  { "category": "master", "sounds": [ "konosuba:sword/pull_burst" ] },
-  "sword.pull_cancel": { "category": "master", "sounds": [ "konosuba:sword/pull_cancel" ] },
-
-  "warp.tower": { "category": "master", "sounds": [ { "name": "konosuba:warp/tower", "stream": true } ] },
-  "warp.out":   { "category": "master", "sounds": [ { "name": "konosuba:warp/out", "stream": true } ] },
-  "warp.in":    { "category": "master", "sounds": [ { "name": "konosuba:warp/in", "stream": true } ] },
-
-  "aqua_pause":   { "category": "master", "subtitle": "konosuba.subtitle.aqua_pause",   "sounds": [ "konosuba:misc/aqua_pause" ] },
-
-  "intro.legend": { "category": "master", "subtitle": "konosuba.subtitle.intro_legend", "sounds": [ { "name": "konosuba:intro/legend", "stream": true } ] },
-  "intro.rbd":    { "category": "master", "subtitle": "konosuba.subtitle.intro_rbd",    "sounds": [ "konosuba:intro/rbd" ] },
-
-  "sword.pull": { "category": "master", "sounds": [ { "name": "konosuba:sword/pull", "stream": true } ] },
-  "fanfare":    { "category": "master", "sounds": [ "konosuba:misc/fanfare" ] },
-
-  "outro.music": { "category": "master", "sounds": [ { "name": "konosuba:outro/music", "stream": true } ] },
-
-  "vault.music": { "category": "master", "sounds": [ { "name": "konosuba:vault/temple_of_time", "stream": true } ] },
-  "boss.music":  { "category": "master", "sounds": [ { "name": "konosuba:boss/eleison", "stream": true } ] },
-  "boss.blademaster": { "category": "master", "sounds": [ { "name": "konosuba:boss/windsingers_dance", "stream": true } ] }
+  "caption.steal": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.steal",
+    "sounds": [
+      "konosuba:ui/silent"
+    ]
+  },
+  "champion.daruk_ready": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.daruk_ready",
+    "sounds": [
+      "konosuba:champion/daruk_ready"
+    ]
+  },
+  "champion.daruk_used": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.daruk_used",
+    "sounds": [
+      "konosuba:champion/daruk_used"
+    ]
+  },
+  "champion.mipha_ready": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.mipha_ready",
+    "sounds": [
+      "konosuba:champion/mipha_ready"
+    ]
+  },
+  "champion.mipha_used": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.mipha_used",
+    "sounds": [
+      "konosuba:champion/mipha_used"
+    ]
+  },
+  "champion.revali_ready": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.revali_ready",
+    "sounds": [
+      "konosuba:champion/revali_ready"
+    ]
+  },
+  "champion.revali_used": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.revali_used",
+    "sounds": [
+      "konosuba:champion/revali_used"
+    ]
+  },
+  "champion.urbosa_fury": {
+    "category": "player",
+    "sounds": [
+      "konosuba:champion/urbosa_fury"
+    ]
+  },
+  "champion.urbosa_lightning": {
+    "category": "player",
+    "sounds": [
+      "konosuba:champion/urbosa_lightning"
+    ]
+  },
+  "champion.urbosa_ready": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.urbosa_ready",
+    "sounds": [
+      "konosuba:champion/urbosa_ready"
+    ]
+  },
+  "champion.urbosa_used": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.urbosa_used",
+    "sounds": [
+      "konosuba:champion/urbosa_used"
+    ]
+  },
+  "cue.attack": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:cue/attack",
+        "volume": 0.5
+      }
+    ]
+  },
+  "explosion.boom": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.explosion_boom",
+    "sounds": [
+      "konosuba:explosion/ExplosionBoom"
+    ]
+  },
+  "explosion.music": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.explosion_music",
+    "sounds": [
+      {
+        "name": "konosuba:explosion/ExplosionMusic",
+        "stream": true
+      }
+    ]
+  },
+  "fanfare": {
+    "category": "master",
+    "sounds": [
+      "konosuba:misc/fanfare"
+    ]
+  },
+  "intro.legend": {
+    "category": "master",
+    "subtitle": "konosuba.subtitle.intro_legend",
+    "sounds": [
+      {
+        "name": "konosuba:intro/legend",
+        "stream": true
+      }
+    ]
+  },
+  "intro.rbd": {
+    "category": "master",
+    "subtitle": "konosuba.subtitle.intro_rbd",
+    "sounds": [
+      "konosuba:intro/rbd"
+    ]
+  },
+  "jackpot": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "konosuba:jackpot/jackpot",
+        "stream": true
+      }
+    ]
+  },
+  "megumin.intro": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:megumin/intro",
+        "stream": true
+      }
+    ]
+  },
+  "music.extra_boss": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/extra_boss",
+        "stream": true
+      }
+    ]
+  },
+  "music.fireblight": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/fireblight",
+        "stream": true
+      }
+    ]
+  },
+  "music.lord_regent": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/lord_regent",
+        "stream": true
+      }
+    ]
+  },
+  "music.the_better_part_of_valour": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/the_better_part_of_valour",
+        "stream": true
+      }
+    ]
+  },
+  "music.thunderblight": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/thunderblight",
+        "stream": true
+      }
+    ]
+  },
+  "music.trailer2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/trailer2",
+        "stream": true
+      }
+    ]
+  },
+  "music.treasury": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/treasury",
+        "stream": true
+      }
+    ]
+  },
+  "music.vah_medoh": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/vah_medoh",
+        "stream": true
+      }
+    ]
+  },
+  "music.vah_naboris": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/vah_naboris",
+        "stream": true
+      }
+    ]
+  },
+  "music.vah_rudania_1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/vah_rudania_1",
+        "stream": true
+      }
+    ]
+  },
+  "music.vah_rudania_2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/vah_rudania_2",
+        "stream": true
+      }
+    ]
+  },
+  "music.vah_ruta": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/vah_ruta",
+        "stream": true
+      }
+    ]
+  },
+  "music.void": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/void",
+        "stream": true
+      }
+    ]
+  },
+  "music.waterblight": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/waterblight",
+        "stream": true
+      }
+    ]
+  },
+  "music.windblight": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:music/windblight",
+        "stream": true
+      }
+    ]
+  },
+  "outro.music": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:outro/music",
+        "stream": true
+      }
+    ]
+  },
+  "slate.advance": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_advance",
+    "sounds": [
+      {
+        "name": "konosuba:slate/advance",
+        "stream": true
+      }
+    ]
+  },
+  "slate.cryonis": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_cryonis",
+    "sounds": [
+      "konosuba:slate/cryonis"
+    ]
+  },
+  "slate.cryonis_crush": {
+    "category": "player",
+    "sounds": [
+      "konosuba:slate/cryonis_crush"
+    ]
+  },
+  "slate.cryonis_form": {
+    "category": "player",
+    "sounds": [
+      "konosuba:slate/cryonis_form"
+    ]
+  },
+  "slate.cryonis_form_end": {
+    "category": "player",
+    "sounds": [
+      "konosuba:slate/cryonis_form_end"
+    ]
+  },
+  "slate.get": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_get",
+    "sounds": [
+      "konosuba:slate/get"
+    ]
+  },
+  "slate.magnesis": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_magnesis",
+    "sounds": [
+      "konosuba:slate/magnesis"
+    ]
+  },
+  "slate.magnesis_pickup": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.magnesis_pickup",
+    "sounds": [
+      "konosuba:slate/magnesis_pickup"
+    ]
+  },
+  "slate.magnesis_throw": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.magnesis_throw",
+    "sounds": [
+      "konosuba:slate/magnesis_throw"
+    ]
+  },
+  "slate.off": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_off",
+    "sounds": [
+      "konosuba:slate/off"
+    ]
+  },
+  "slate.on": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_on",
+    "sounds": [
+      "konosuba:slate/on"
+    ]
+  },
+  "slate.rbomb_cancel": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.rbomb_cancel",
+    "sounds": [
+      "konosuba:slate/rbomb_cancel"
+    ]
+  },
+  "slate.rbomb_explosion": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.rbomb_explosion",
+    "sounds": [
+      "konosuba:slate/rbomb_explosion"
+    ]
+  },
+  "slate.rbomb_hold": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.rbomb_hold",
+    "sounds": [
+      "konosuba:slate/rbomb_hold"
+    ]
+  },
+  "slate.rune_install": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.rune_install",
+    "sounds": [
+      {
+        "name": "konosuba:slate/rune_install",
+        "stream": true
+      }
+    ]
+  },
+  "slate.stasis": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.slate_stasis",
+    "sounds": [
+      {
+        "name": "konosuba:slate/stasis",
+        "stream": true
+      }
+    ]
+  },
+  "steal": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "konosuba:steal/steal",
+        "stream": true
+      }
+    ]
+  },
+  "sword.dequip": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.sword_dequip",
+    "sounds": [
+      "konosuba:sword/dequip"
+    ]
+  },
+  "sword.equip": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.sword_equip",
+    "sounds": [
+      "konosuba:sword/equip"
+    ]
+  },
+  "sword.pull": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:sword/pull",
+        "stream": true
+      }
+    ]
+  },
+  "sword.pull_burst": {
+    "category": "master",
+    "sounds": [
+      "konosuba:sword/pull_burst"
+    ]
+  },
+  "sword.pull_cancel": {
+    "category": "master",
+    "sounds": [
+      "konosuba:sword/pull_cancel"
+    ]
+  },
+  "sword.pull_effect": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:sword/pull_effect",
+        "stream": true
+      }
+    ]
+  },
+  "sword.pull_energy": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:sword/pull_energy",
+        "stream": true
+      }
+    ]
+  },
+  "sword.seal": {
+    "category": "player",
+    "subtitle": "konosuba.subtitle.sword_seal",
+    "sounds": [
+      "konosuba:sword/seal"
+    ]
+  },
+  "sword.song": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:sword/song",
+        "stream": true
+      }
+    ]
+  },
+  "vault.music": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:vault/temple_of_time",
+        "stream": true
+      }
+    ]
+  },
+  "warp.in": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:warp/in",
+        "stream": true
+      }
+    ]
+  },
+  "warp.out": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:warp/out",
+        "stream": true
+      }
+    ]
+  },
+  "warp.tower": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "konosuba:warp/tower",
+        "stream": true
+      }
+    ]
+  }
 }

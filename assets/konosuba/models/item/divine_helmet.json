@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "konosuba:item/divine_helmet",
+    "layer1": "konosuba:item/divine_helmet_overlay"
+  }
+}
