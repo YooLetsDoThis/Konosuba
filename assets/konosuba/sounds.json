@@ -7,7 +7,7 @@
     ]
   },
   "boss.blademaster": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:boss/windsingers_dance",
@@ -16,7 +16,7 @@
     ]
   },
   "boss.music": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:boss/eleison",
@@ -123,7 +123,7 @@
     ]
   },
   "explosion.music": {
-    "category": "player",
+    "category": "record",
     "subtitle": "konosuba.subtitle.explosion_music",
     "sounds": [
       {
@@ -174,7 +174,7 @@
     ]
   },
   "music.extra_boss": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/extra_boss",
@@ -183,7 +183,7 @@
     ]
   },
   "music.fireblight": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/fireblight",
@@ -192,7 +192,7 @@
     ]
   },
   "music.lord_regent": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/lord_regent",
@@ -201,7 +201,7 @@
     ]
   },
   "music.the_better_part_of_valour": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/the_better_part_of_valour",
@@ -210,7 +210,7 @@
     ]
   },
   "music.thunderblight": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/thunderblight",
@@ -219,7 +219,7 @@
     ]
   },
   "music.trailer2": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/trailer2",
@@ -228,7 +228,7 @@
     ]
   },
   "music.treasury": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/treasury",
@@ -237,7 +237,7 @@
     ]
   },
   "music.vah_medoh": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/vah_medoh",
@@ -246,7 +246,7 @@
     ]
   },
   "music.vah_naboris": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/vah_naboris",
@@ -255,7 +255,7 @@
     ]
   },
   "music.vah_rudania_1": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/vah_rudania_1",
@@ -264,7 +264,7 @@
     ]
   },
   "music.vah_rudania_2": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/vah_rudania_2",
@@ -273,7 +273,7 @@
     ]
   },
   "music.vah_ruta": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/vah_ruta",
@@ -282,7 +282,7 @@
     ]
   },
   "music.void": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/void",
@@ -291,7 +291,7 @@
     ]
   },
   "music.waterblight": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/waterblight",
@@ -300,7 +300,7 @@
     ]
   },
   "music.windblight": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:music/windblight",
@@ -309,7 +309,7 @@
     ]
   },
   "outro.music": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:outro/music",
@@ -514,7 +514,7 @@
     ]
   },
   "vault.music": {
-    "category": "master",
+    "category": "record",
     "sounds": [
       {
         "name": "konosuba:vault/temple_of_time",
