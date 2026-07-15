@@ -173,6 +173,33 @@
       }
     ]
   },
+  "music.altars_of_apostasy": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "konosuba:music/altars_of_apostasy",
+        "stream": true
+      }
+    ]
+  },
+  "music.death_odyssey": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "konosuba:music/death_odyssey",
+        "stream": true
+      }
+    ]
+  },
+  "music.hymn_of_the_worthy": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "konosuba:music/hymn_of_the_worthy",
+        "stream": true
+      }
+    ]
+  },
   "music.extra_boss": {
     "category": "record",
     "sounds": [
