@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "konosuba:item/knight_leather_boots",
+    "layer1": "konosuba:item/knight_leather_boots_overlay"
+  }
+}

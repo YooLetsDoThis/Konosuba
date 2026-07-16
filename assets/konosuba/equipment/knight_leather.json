@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "konosuba:knight_leather",
+        "dyeable": {
+          "color_when_undyed": 11546150
+        }
+      },
+      {
+        "texture": "konosuba:knight_leather_overlay"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "konosuba:knight_leather",
+        "dyeable": {
+          "color_when_undyed": 11546150
+        }
+      },
+      {
+        "texture": "konosuba:knight_leather_overlay"
+      }
+    ]
+  }
+}

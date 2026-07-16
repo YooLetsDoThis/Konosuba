@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "konosuba:knight_chainmail"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "konosuba:knight_chainmail"
+      }
+    ]
+  }
+}
