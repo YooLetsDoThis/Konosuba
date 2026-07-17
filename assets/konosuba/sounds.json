@@ -575,5 +575,23 @@
         "stream": true
       }
     ]
+  },
+  "music.traveler": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "konosuba:music/traveler",
+        "stream": true
+      }
+    ]
+  },
+  "music.you_say_run": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "konosuba:music/you_say_run",
+        "stream": true
+      }
+    ]
   }
 }
